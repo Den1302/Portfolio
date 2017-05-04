@@ -1,0 +1,47 @@
+.content-location {
+
+  background: #e7e7e7;
+  text-transform: uppercase;
+  margin-bottom: 31px;
+}
+.link{
+  margin-top: 24px;
+}
+.content-location-info {
+   padding-top: 46px;
+   padding-bottom: 41px;
+   padding-left: 27px;
+ }
+
+.content-location-nav {
+   margin-top: 41px;
+   margin-right: 13px;
+ }
+
+.content-location-nav a {
+   text-decoration: none;
+   color: #999999;
+ }
+
+.content-location-nav a:hover {
+   color: #666666;
+ }
+
+.content-location-nav>.breadcrumb {
+   background: transparent;
+ }
+
+.map-responsive	{
+   overflow:hidden;
+   padding-bottom:56.25%;
+   position:relative;
+   height:0;
+ }
+
+.map-responsive iframe	{
+   left:0;
+   top:0;
+   height: 631px;;
+   width: 1170px;
+   position:absolute;
+ }
