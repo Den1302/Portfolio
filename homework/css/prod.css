@@ -1,0 +1,25 @@
+.product-other {
+  height: 118px;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+  padding-top: 19px;
+  padding-left: 19px;
+
+}
+
+.product-other-item {
+  display: flex;
+}
+
+.product-other-item .img {
+  border: 1px solid #ffe0cb;
+  height: 78px;
+}
+
+.product-other-item .descr {
+  margin-left: 20px;
+}
+
+.img img {
+  padding-top: 8px;
+}
