@@ -1,0 +1,61 @@
+.nw{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size:18px;
+  margin-top: -26px;
+
+}
+.buttonn{
+  text-align: right;
+  margin-top: -37px;
+  padding-bottom: 15px;
+}
+.newpost{
+
+}
+.descri{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  color: #7f9f5d;
+  text-align: center;
+  text-transform: uppercase;
+}
+.titl{
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+}
+.testimonials{
+  margin-top: 60px;
+  background-color: #292929;
+}
+.testm{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat Bold', sans-serif;
+  font-size:40px;
+  color: white;
+  margin-top: 50px;
+}
+.inform{
+  text-align: center;
+  color: #cccccc;
+  font-family: 'Montserrat', sans-serif;
+  font-size:17px;
+}
+.square{
+  width: 55px;
+  height:55px;
+  background-color: white !important;
+  text-align: center;
+  transform: rotate(45deg);
+  margin-left: 573px;
+  border:1px solid #be926f;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.but-group{
+border: rgba(0,0,0,0.5);
+}

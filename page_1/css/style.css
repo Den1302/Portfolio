@@ -1,0 +1,140 @@
+@import "cont.css";
+@import "main-page-banner.css";
+@import "product.css";
+@import "prod.css";
+@import "brand-in.css";
+@import "product2.css";
+@import "newpost.css";
+@import "page-footer.css";
+html {
+  font-family: 'Montserrat Light', sans-serif;
+  font-size: 15px;
+  line-height: 1.7333;
+}
+body {
+  min-width: 320px;
+}
+.montserrat-light{
+  font-family: 'Montserrat Light', sans-serif;
+}
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.montserrat-bold{
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-left: -10px;
+}
+.header-nav li + li{
+   margin-left:30px;
+ }
+.header-nav li {
+   display: inline-block;
+ }
+.header-nav a {
+  display: block;
+  padding:10px;
+  color: #ffffff;
+  text-decoration: none;;
+
+}
+.header-nav{
+  padding-top:10px;
+}
+.header-nav a:hover, .header-nav .current a {
+   color: #be926f;
+ }
+.bag{
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  padding-right: 15px;
+  padding-top: 20px;
+  margin-left: 33px;
+}
+.bag>span{
+   font-size: 12px;
+  display: inline-block;
+   border-radius: 18px 18px;
+   width: 18px;
+   height: 18px;
+   text-align: center;
+   line-height: 18px;
+   position: absolute;
+   top: 11px;
+   right: 6px;
+   background: #be926f;
+}
+
+.page-header{
+  margin:0;
+  background-color: #232323;
+  margin-bottom:30px;
+}
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.montserrat-lite {
+  font-family: 'Montserrat Light', sans-serif;
+}
+.header-top {
+  background: #2b2b2b;
+  font-size: 14px;
+  padding: 4px 0;
+}
+.header-phone{
+
+  color: #7f7f7f;
+}
+.header-phone a {
+  color: #7f7f7f;
+  text-decoration: none;
+}
+.header-user {
+  float: right;
+  color: #3b3b3b;
+}
+.header-user a{
+  color: #666666;
+  text-decoration: none;
+}
+.header-user .sep{
+  margin: 0 5px;
+}
+.header-user a:hover{
+  text-decoration: underline;
+}
+.header-phone, .header-user{
+  padding: 5px 0;
+}
+.header-user span {
+  color: #393939;
+}
+.header_logo{
+  margin-top: 30px;
+}
+.header-logo,.header-search {
+  padding-top: 2.214em;
+}
+.header-search{
+
+}
+.header-search .form-control{
+  color: #ffffff;
+  background-color: transparent;
+}
+.header-search .btn {
+   background: transparent;
+ }
+.header-search .btn {
+  color: #ffffff;
+ }
+.header-search .form-control{
+  border-radius:50px 0 0 50px;
+}
+.header-search .btn{
+  border-radius:0 50px 50px 0;
+}

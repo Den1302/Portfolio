@@ -1,0 +1,13 @@
+
+.brand-inf {
+  border: 1px solid #e6e6e6;
+}
+.brand_img {
+  line-height: 140px;
+  display: inline-block;
+}
+
+.brand_img:hover {
+  line-height: 110px;
+  padding-bottom: 30px;
+}
