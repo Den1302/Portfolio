@@ -1,0 +1,17 @@
+.slider-item{
+  position: relative;
+}
+.main-page-banner .btn {
+text-transform: uppercase;
+}
+.main-page-banner .text{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+.main-page-banner .text-content{
+  position: absolute;
+  top:0;
+  left:40px;
+  height: 100%;
+}
