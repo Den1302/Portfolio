@@ -1,0 +1,147 @@
+.categories{
+    margin-top: 25px;
+    padding-left: 0;
+}
+.categories input{
+
+    border: 1px solid #be926f;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.categories button{
+    position: relative;
+
+    float: right;
+    bottom: 64px;
+    color: white;
+    background-color: #be926f;
+    border-radius: 0;
+    border: 1px solid #be926f;
+}
+.by{
+    background-color: #be926f;
+
+}
+.by span{
+    font-size:16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+.categories ol{
+    list-style: url("../image/papka.png");
+    margin-top: 20px;
+    padding-left: 55px;
+
+}
+.categories ol li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #f3ece6;
+    font-size:14px;
+    font-family: 'Montserrat Light', sans-serif;
+}
+.categories ol li a{
+    color: #333333;
+    text-decoration: none;
+    position: absolute;
+}
+.archives{
+    background-color: #be926f;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.archives span {
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+.calendar ol{
+    list-style: url("../image/kalendar.png");
+    margin-top: 20px;
+    padding-left: 55px;
+}
+.popular{
+    margin-bottom: 30px;
+}
+.popular img{
+    border: 1px solid #e6e6e6;
+}
+.prod-title{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}
+.prod-title2{
+    position: relative;
+    top:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color: #be926f;
+    display: inline-block;
+}
+.text h3{
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+}
+.color{
+    color: #999999;
+    font-family: 'Montserrat Light', sans-serif;
+    font-size: 14px;
+}
+.bla{
+    color: #666666;
+    font-family: 'Montserrat Light', sans-serif;
+    font-size:14px;
+}
+.about{
+    font-family: 'Montserrat Light', sans-serif;
+    font-size:15px;
+    color: #333333;
+    margin-top: 20px;
+}
+.some-text{
+    margin-bottom: 45px;
+}
+.pages{
+    float: right;
+    background-color: white;
+}
+.pages a{
+    text-decoration: none;
+}
+.first{
+    display: inline-block;
+    background-color: #be926f;
+    color: white;
+    width: 30px;
+    height:30px;
+    font-size:16px;
+    text-align: center;
+}
+.number{
+    position: relative;
+    top: 4px;
+}
+.second{
+    color: #666666;
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    font-size:16px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    position: relative;
+    top: 1px;
+}
+.glyphicon{
+    top:5px;
+}

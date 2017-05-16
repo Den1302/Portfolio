@@ -1,0 +1,25 @@
+.blog{
+    background-color: #e7e7e7;
+    height:115px;
+}
+.blog h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.links{
+    position: relative;
+    top: 55px;
+    right: 30px;
+}
+.blog a{
+    color: #999999;
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.blog a:hover{
+    color: #666666;
+}
