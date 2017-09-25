@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Адаптирование страницы для мобильных устройств -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Запрет распознования номера телефона -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Заголовок страницы -->
+    <title>Заголовок страницы</title>
+
+    <!-- Данное значение часто используют(использовали) поисковые системы -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <link rel="stylesheet" href="css/response_1170.css" media="(max-width: 1170px)">
+    <link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+    <link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+    <link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+    <!-- Обучение старых версий IE тегам html5 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Шапка -->
+<header class="kabinet">
+    <div class="cont kab">
+        <div class="b-logo left">
+            <a href="/" class="logo">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="logon right">
+            <a href="#" class="menu_link"></a>
+            <ul>
+                <li>
+                    <a href="/" class="link">Мой кабинет</a>
+                </li>
+                <li>
+                    <a href="/" class="link">Скидки</a>
+                </li>
+                <li>
+                    <a href="/" class="link">Поддержка</a>
+                </li>
+            </ul>
+            <div class="link_out">
+                <a href="/" class="button">Выйти</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+<div class="faq_title">
+    <h1 >Your Tickets</h1>
+    <hr>
+    <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+</div>
+    <div class="support_box">
+        <div class="comments">
+            <div class="comment dialog">
+                <span class="support">Support</span>
+                <span class="date">27.09.2017 16:34</span>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                    sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,</p>
+            </div>
+        </div>
+            <div class="comment dialog right_box">
+                <span class="support">User</span>
+                <span class="date">27.09.2017 16:35</span>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                    sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,</p>
+            </div>
+        <div class="comment dialog right_box">
+            <span class="support">User</span>
+            <span class="date">27.09.2017 16:35</span>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                </p>
+        </div>
+
+    </div>
+    <div class="message">
+        <form>
+            <input type="text" class="msg" value="Enter your message" onclick="this.value='';"
+                   onblur="this.value=!this.value?'Enter your message':this.value;">
+        </form>
+        <div class="btn_send">
+        <button type="submit">send</button>
+        </div>
+    </div>
+    <div class="create_ticket">
+        <h3>Created tickets</h3>
+        <hr style="color: #e8e8e8">
+
+        <table>
+            <tr>
+                <th>  ID </th>
+                <th>Ticket's subject</th>
+                <th>Last message date</th>
+                <th>Status</th>
+
+                <th> </th>
+            </tr>
+            <tr>
+                <td><span>123456789 </span></td>
+                <td><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </span> </td>
+                <td><span>27.09.2017</span> </td>
+                <td><span>Status</span> </td>
+                <td><button class="reply">Reply</button></td>
+            <tr class='ts1'>
+                <td><span>123456789 </span> </td>
+                <td><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </span>  </td>
+                <td><span>27.09.2017</span> </td>
+                <td><span>Status</span> </td>
+                <td><button class="reply">Reply</button></td>
+            </tr>
+            <tr>
+                <td><span>123456789</span></td>
+                <td><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </span></td>
+                <td><span>27.09.2017</span></td>
+                <td><span>Status</span></td>
+                <td><button class="reply">Reply</button></td>
+            </tr>
+            <tr class='ts1'>
+                <td ><span>123456789</span></td>
+                <td><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo </span></td>
+                <td><span>27.09.2017</span></td>
+                <td><span>Status</span></td>
+                <td><button class="reply">Reply</button></td>
+            </tr>
+            <tr class="last_lenght">
+                <td><span>123456789 </span></td>
+                <td><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</span></td>
+                <td><span>27.09.2017</span></td>
+                <td><span>Status</span></td>
+                <td><button class="reply">Reply</button></td>
+            </tr>
+        </table>
+        <div class="btn_send new_ticket">
+            <button type="submit">New ticket</button>
+        </div>
+    </div>
+
+<div class="table">
+    <div class="table_title">
+        <span class="id">ID</span>
+        <span class="subject liner">Ticket's subject</span>
+        <span class="last_date">Last message date</span>
+        <span class="status">Status</span>
+        <span class="null"></span>
+    </div>
+    <div class="table_title no_bg">
+        <span class="id">123456789</span>
+        <span class="subject">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</span>
+        <span class="last_date">27.09.2017</span>
+        <span class="status">Status</span>
+        <span class="null"><button class="reply">Reply</button></span>
+    </div>
+    <div class="table_title no_bg">
+        <span class="id">123456789</span>
+        <span class="subject">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</span>
+        <span class="last_date">27.09.2017</span>
+        <span class="status">Status</span>
+        <span class="null"><button class="reply">Reply</button></span>
+    </div>
+    <div class="table_title no_bg">
+        <span class="id">123456789</span>
+        <span class="subject">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</span>
+        <span class="last_date">27.09.2017</span>
+        <span class="status">Status</span>
+        <span class="null"><button class="reply">Reply</button></span>
+    </div>
+    <div class="table_title no_bg">
+        <span class="id">123456789</span>
+        <span class="subject">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</span>
+        <span class="last_date">27.09.2017</span>
+        <span class="status">Status</span>
+        <span class="null"><button class="reply">Reply</button></span>
+    </div>
+    <div class="table_title no_bg">
+        <span class="id">123456789</span>
+        <span class="subject">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo</span>
+        <span class="last_date">27.09.2017</span>
+        <span class="status">Status</span>
+        <span class="null"><button class="reply">Reply</button></span>
+    </div>
+</div>
+
+<div class="message">
+    <form>
+        <input type="text" class="tick" value="Title of the ticket" onclick="this.value='';"
+               onblur="this.value=!this.value?'Enter your message':this.value;">
+        <input type="text" class="msg" value="Enter your message" onclick="this.value='';"
+               onblur="this.value=!this.value?'Enter your message':this.value;">
+    </form>
+    <div class="btn_send">
+        <button type="submit">send</button>
+    </div>
+</div>
+
+
+
+<!-- Подвал -->
+<footer class="kabinet">
+    <div class="cont kab">
+        <div class="links left">
+            <a href="/" class="link">Условия аренды</a>
+            <a href="/" class="link">Партнерство</a>
+        </div>
+        <div class="copy right">(&copy;) 2016 ProxyFace</div>
+        <div class="clear"></div>
+    </div>
+</footer>
+<!-- End Подвал -->
+
+<!-- Подключение javascript файлов -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate.js"></script>
+<script src="js/device.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/jquery.parallax.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/scrollTo-min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.selectbox.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
